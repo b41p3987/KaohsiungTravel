@@ -1,0 +1,45 @@
+.record {
+  width: 80%;
+}
+
+.record .recordBar {
+  color: #4a4a4a;
+  line-height: 70px;
+  height: 70px;
+}
+
+.record .recordBar .alertbar {
+  width: 40px;
+  position: relative;
+}
+
+.record .recordBar .alertbar a {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 100%;
+  background: #fff;
+  right: 0;
+  text-decoration: none;
+}
+
+.record .recordBar .alertbar a:hover {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+
+.record .recordBar .status p, .record .recordBar .bmiRecord p, .record .recordBar .heightRecord p, .record .recordBar .weightRecord p {
+  display: inline;
+  font-size: 18px;
+}
+
+.record .recordBar .status span, .record .recordBar .bmiRecord span, .record .recordBar .heightRecord span, .record .recordBar .weightRecord span {
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.record .recordBar .timeRecord {
+  padding-right: 10px;
+  font-size: 12px;
+}

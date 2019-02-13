@@ -1,0 +1,192 @@
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Microsoft JhengHei; }
+
+.mainvision {
+  height: 450px;
+  background-image: url(../img/mainvison.jpg);
+  background-size: cover;
+  background-position: center; }
+  .mainvision h1 {
+    padding-top: 120px; }
+  .mainvision .district-select {
+    height: 50px;
+    padding: 10px;
+    border: 2px dotted #c4c4c4;
+    outline: none;
+    border-radius: 1rem;
+    margin-top: 100px;
+    background: rgba(250, 250, 250, 0.8); }
+
+.line {
+  width: 100%;
+  height: 20px;
+  border-bottom: 2px dotted #ff7575;
+  position: relative;
+  margin-bottom: 30px; }
+  .line .arrow {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Standard syntax */
+    -ms-transform: translateX(-50%);
+    /* IE 9 */
+    -webkit-transform: translateX(-50%);
+    /* Safari */
+    background-image: url(../img/icons_down-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ff7575; }
+
+.hotissue .title {
+  margin-top: 50px;
+  height: 40px;
+  border-radius: 5%; }
+  .hotissue .title h4 {
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+    line-height: 40px; }
+
+.hotissue .hotdistrict {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem; }
+
+.hotissue .color-1 {
+  background: #ff7575; }
+
+.hotissue .color-2 {
+  background: #be77ff; }
+
+.hotissue .color-3 {
+  background: #66b3ff; }
+
+.hotissue .color-4 {
+  background: #ff8f59; }
+
+.hotissue .color-1:hover {
+  background: #ae0000; }
+
+.hotissue .color-2:hover {
+  background: #921aff; }
+
+.hotissue .color-3:hover {
+  background: #0066cc; }
+
+.hotissue .color-4:hover {
+  background: #f75000; }
+
+#districtName {
+  color: #e65803; }
+
+.locationInfo {
+  border: 1px #c4c4c4 dotted;
+  width: 45%;
+  margin: 20px 2.5%; }
+  @media (max-width: 567px) {
+    .locationInfo {
+      width: 80%;
+      margin: 20px 10%; } }
+  .locationInfo .img {
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    position: relative; }
+    .locationInfo .img .title {
+      position: absolute;
+      bottom: 8px;
+      left: 10px;
+      font-size: 17px;
+      color: white;
+      z-index: 1; }
+    .locationInfo .img .shadow {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.65)));
+      background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+      /* IE6-9 */ }
+  .locationInfo .info {
+    padding: 10px; }
+    .locationInfo .info p {
+      font-size: 14px;
+      color: #3c3c3c; }
+      .locationInfo .info p span {
+        font-weight: bold; }
+    .locationInfo .info .icon-add {
+      padding-left: 20px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../img/icons_pin.png); }
+    .locationInfo .info .icon-time {
+      padding-left: 20px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../img/icons_clock.png); }
+    .locationInfo .info .icon-tel {
+      font-size: 14px;
+      color: #3c3c3c;
+      padding-left: 20px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../img/icons_phone.png); }
+    .locationInfo .info .icon-tag {
+      font-size: 14px;
+      color: #3c3c3c;
+      padding-left: 20px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../img/icons_tag.png); }
+
+.content {
+  position: relative; }
+
+#top {
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  background-image: url(../img/icons_up-1.png);
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ff7575;
+  z-index: 1; }
+
+#top:hover {
+  border: 2px dotted #000; }
+
+.footer {
+  background: #559AC8;
+  height: 90px; }
+  .footer h5 {
+    font-size: 16px;
+    color: #fff; }
+  .footer p {
+    font-size: 16px;
+    color: #FFD366; }
